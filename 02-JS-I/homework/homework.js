@@ -174,7 +174,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = nombre + apellido;
+  var combinado = nombre + " " + apellido;
   return combinado;
 }
 
@@ -223,7 +223,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
     return "Es vocal";
-  } else if(letra.lenth > 1) {
+  } else if(letra.length > 1) {
     return "Dato incorrecto";
   }
     return "Dato incorrecto";
